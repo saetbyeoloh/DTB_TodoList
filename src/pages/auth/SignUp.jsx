@@ -1,7 +1,7 @@
 import React from "react";
 
-const Todo = () => {
+const SignUp = () => {
   return <div></div>;
 };
 
-export default Todo;
+export default SignUp;
