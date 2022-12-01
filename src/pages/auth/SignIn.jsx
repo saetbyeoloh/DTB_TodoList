@@ -1,15 +1,20 @@
 import React from "react";
 import AuthButton from "../../components/auth/AuthButton";
 import AuthInput from "../../components/auth/AuthInput";
+import * as S from "./AuthStyle.js";
 
 const SignIn = () => {
   return (
-    <div>
-      <h2>로그인을 해주세요</h2>
-      <AuthButton>버튼</AuthButton>
-      <AuthInput type="" placeholder="email" />
-      <AuthInput />
-    </div>
+    <S.Auth>
+      <S.BoxContainer>
+        <S.FormContainer>
+          <S.SigninTitle>Login</S.SigninTitle>
+          <AuthInput type={"email"} />
+          <AuthInput type={"password"} />
+          <AuthButton>Login</AuthButton>
+        </S.FormContainer>
+      </S.BoxContainer>
+    </S.Auth>
   );
 };
 

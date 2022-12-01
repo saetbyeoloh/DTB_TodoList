@@ -14,6 +14,11 @@ const AuthInput = () => {
 export default AuthInput;
 
 const Inputbox = styled.input`
-  with: 100px;
+  width: 200px;
   padding: 0.5rem 1rem;
+  margin: 0.2rem;
+  border-radius: 5px;
+  // border: none;
+  background: #34a65f;
+  color: white;
 `;
