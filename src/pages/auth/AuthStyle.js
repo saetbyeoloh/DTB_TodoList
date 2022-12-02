@@ -14,6 +14,11 @@ export const SigninTitle = styled.h1`
   color: white;
 `;
 
+export const Singinletter = styled.div`
+  color: white;
+  margin-top: 2%;
+`;
+
 export const BoxContainer = styled.div`
   display: flex;
   justify-content: center;

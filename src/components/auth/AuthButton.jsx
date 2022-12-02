@@ -1,10 +1,10 @@
 import React, { Children } from "react";
 import styled from "styled-components";
 
-const AuthButton = ({ Children, onClick, ...rest }) => {
+const AuthButton = ({ children, onClick, ...rest }) => {
   return (
     <div>
-      <AuthBtn>Login</AuthBtn>
+      <AuthBtn onClick={onClick}>{children}</AuthBtn>
     </div>
   );
 };

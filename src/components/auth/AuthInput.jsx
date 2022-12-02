@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-const AuthInput = () => {
+const AuthInput = ({ type, placeholder }) => {
   return (
     <div>
       <label>
-        <Inputbox />
+        <Inputbox type={type} placeholder={placeholder} />
       </label>
     </div>
   );

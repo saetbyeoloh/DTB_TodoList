@@ -11,7 +11,7 @@ const SignUp = () => {
           <S.SigninTitle>Sign Up</S.SigninTitle>
           <AuthInput type="text" placeholder="email" />
           <AuthInput />
-          <AuthButton>Login</AuthButton>
+          <AuthButton>SignUp</AuthButton>
         </S.FormContainer>
       </S.BoxContainer>
     </S.Auth>

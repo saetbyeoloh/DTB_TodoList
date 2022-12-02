@@ -9,9 +9,10 @@ const SignIn = () => {
       <S.BoxContainer>
         <S.FormContainer>
           <S.SigninTitle>Login</S.SigninTitle>
-          <AuthInput type={"email"} />
-          <AuthInput type={"password"} />
+          <AuthInput type="email" placeholder="email" />
+          <AuthInput type="password" placeholder="password" />
           <AuthButton>Login</AuthButton>
+          <S.Singinletter>회원가입 하러가기</S.Singinletter>
         </S.FormContainer>
       </S.BoxContainer>
     </S.Auth>
