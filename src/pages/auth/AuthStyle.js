@@ -35,3 +35,9 @@ export const FormContainer = styled.div`
   background-size: cover;
   border-radius: 4%;
 `;
+
+export const SignInWarning = styled.p`
+  font-size: 0.8rem;
+  color: white;
+  margin-top: 0.4rem;
+`;

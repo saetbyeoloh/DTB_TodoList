@@ -1,11 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
-const AuthInput = ({ type, placeholder }) => {
+const AuthInput = ({ type, placeholder, onChange }) => {
   return (
     <div>
       <label>
-        <Inputbox type={type} placeholder={placeholder} />
+        <Inputbox
+          name={placeholder}
+          type={type}
+          placeholder={placeholder}
+          onChange={onChange}
+        />
       </label>
     </div>
   );
