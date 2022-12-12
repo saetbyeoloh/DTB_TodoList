@@ -5,7 +5,6 @@ import * as S from "./AuthStyle.js";
 import { Link, Navigate } from "react-router-dom";
 import { client } from "../../apis/AuthApi";
 import { useEffect } from "react";
-import { isValidDateValue } from "@testing-library/user-event/dist/utils";
 
 const SignIn = () => {
   const [user, SetUser] = useState({
