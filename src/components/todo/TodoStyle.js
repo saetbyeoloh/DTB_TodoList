@@ -36,4 +36,6 @@ export const Todoletter = styled.h1`
   margin-top: 2%;
 `;
 
-export const TodoInputbox = styled.div``;
+export const TodoInputbox = styled.input`
+width
+`;
