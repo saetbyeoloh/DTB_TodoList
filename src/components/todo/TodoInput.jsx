@@ -4,7 +4,7 @@ import styled from "styled-components";
 const TodoInput = () => {
   return (
     <div>
-      <Inputbox />
+      <Inputbox placeholder="wirte your todo" />
     </div>
   );
 };
